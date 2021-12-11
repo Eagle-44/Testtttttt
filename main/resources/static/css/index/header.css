@@ -1,0 +1,41 @@
+.header {
+    background-color: #F2F3F4;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    margin-inline: 20px;
+    
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav_ul {
+    display: flex;
+    align-items: center;
+    
+}
+
+.header__nav_ul li {
+    border: 2px solid #000;
+    color: White;
+    padding: 8px;
+    margin-right: 2px;
+}
+
+.header__nav_ul li:hover {
+background: White;
+border: 1px solid rgb(255, 0, 0);
+border-left: 3px solid rgb(255, 0, 0);
+color: Black;
+padding: 8px;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+}

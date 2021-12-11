@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Create</title>
+	<link rel="stylesheet" type="text/css" href="css/create/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <div class="header__left">
+                    <h2>My Circus</h2>
+                    <ul class="header__nav_ul">
+                        <li>
+                            <a class="header__nav-circus_list" href="index.html">Circus List</a>
+                        </li>
+                        <li>
+                            <a class="header__nav-add_circus" href="create.html">Add Circus</a>
+                        </li>
+                    </ul>
+                </div>
+			</nav>
+        </div>
+    </header>
+
+	<section class="input">
+		<form class="input__form">
+            <p class="input__form-title" id="title">Create Circus</p>
+
+            <div class="input__form-input">
+            	<label for="name" class="lable">Name:</label>
+				<input class="name-input" id="name" type="text" placeholder="Enter name">
+            </div>
+            
+            <div class="input__form-input">
+                <label for="amount_of_places" class="lable">Amount Of places:</label>
+                <input class="amount_of_places-input" id="amount_of_places" type="number" placeholder="Enter number">
+            </div>
+            
+            <div class="input__form-input">
+            	<label for="address" class="lable">Address:</label>
+				<input class="address-input" id="address" type="text" placeholder="Enter name of street">
+            </div>
+
+            <div class="input__form-input">
+            	<label for="performances_per_year" class="lable">Performances Per Year:</label>
+				<input class="performances_per_year-input" id="performances_per_year" type="number" placeholder="Enter number">
+            </div>
+
+            <button id="button__submit" type="submit" class="button__submit">Submit</button>
+    	</form>
+	</section>
+	<script type="module" src="js/create.js"></script>
+</body>
+</html>
