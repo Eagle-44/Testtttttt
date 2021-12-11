@@ -1,0 +1,37 @@
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.input__form{
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+}
+
+.input__form-title {
+    text-align: center;
+    font-size: 200%;
+}
+
+.input__form-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.button__submit {
+padding: 0px 20px;
+margin-bottom: 15px;
+border-radius: 6px;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+color: #D6DBDF;
+background-color: #34495E;
+}
+
+.button__submit:hover{
+border: 1px solid rgb(255, 0, 0);
+border-left: 3px solid rgb(255, 0, 0);
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Page</title>
+    <link rel="stylesheet" href="css/index/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <div class="header__left">
+                    <h2>My Circus</h2>
+                        <ul class="header__nav_ul">
+                            <li>
+                                <a class="header__nav-circus_list" href="index.html">Circus List</a>
+                            </li>
+                            <li>
+                                <a class="header__nav-add_circus" href="create.html">Add Circus</a>
+                            </li>
+                        </ul>
+                </div>
+                <h1>Circus Manager</h1>
+                <div class="header__right">
+                    <form>
+                        <input id="search__input" class="header__search__input" type="text" placeholder="Type something...">
+                    </form>
+                    <button id="search__button" class="header__search" type="button">Search</button>
+                    <button id="clear__button" class="header__clear" type="button">Clear</button>
+                </div>
+			</nav>
+        </div>
+    </header>
+
+    <aside class="aside">
+		<div class="aside__container">
+			<h3>Manage Circus Statistick</h3>
+            <div class="toggle__switch">
+                <p>Sort by amount of places</p>
+                <label class="switch">
+                    <input type="checkbox" id="switch">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        <!--aside line horizontal-->
+            <hr>
+            <p>The total number of performances per year:</p>
+            <button id="count__button" class="aside__button-count" type="button">Count</button>
+            <p class="aside__text-count">Total amount of performances:</p>
+            <h3 id="count__value" class="c__value"></h3>
+		</div>
+        <ul id="items__container" class="circus__items">
+        </ul>
+	</aside>
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
